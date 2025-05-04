@@ -19,7 +19,7 @@ ul {
 a {
   background: transparent;
   text-decoration: none;
-  color: inherrit;
+  color: inherit;
 }
 
 /* =======================================
@@ -28,14 +28,14 @@ Card CSS
 
 ======================================= */
 .container {
-  background: linear-gradient(to top left, #fffafa, #7cfc00);
+  background: linear-gradient(to top left, #fffafa, #a9a9a9);
   width: 100%;
   padding: 10rem 1rem 15rem;
 }
 
 ul.item {
   list-style: none;
-  display: fles;
+  display: flex;
   justify-content: center;
   max-width: 960px;
   margin: 0 auto;
@@ -64,13 +64,13 @@ li.list:nth-child(2) {
   bottom: -100px;
 }
 
-li-list:last-child {
+li.list:last-child {
   margin-right: 0;
 }
 
 div.image {
-  width: 175px;
-  margin: 4rem auto auto;
+  width: 200px;
+  margin: 5rem auto auto;
 }
 
 div.image img {
@@ -79,8 +79,23 @@ div.image img {
 }
 
 h3.title {
-  padding: 1rem 0;
+  padding: 5rem 0;
   color: #1c0d02;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Libre Baskerville", serif;
+}
+
+h3.title span {
+  display: block;
+  font-family: "HIragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  font-size: 20px;
+}
+
+a.btn {
+  width: 127px;
+  background: #1c0d02;
   border-radius: 30px;
   font-size: 29px;
   font-weight: bold;
